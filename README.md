@@ -64,4 +64,4 @@ Hazırladığımız Tensorflow dosyası, alınan hatalar önlendiği takdirde  e
 Mobil uygulamamızın Ux/Ul tasarımını yaptık. Mobil uygulama kodlamasını yazmaya vaktimiz kalmadığı için tamamlayamadık. 
 
 
-Resources ve Official klasörleri ektedir. https://drive.google.com/drive/folders/19jJLxzQTL8m9-ESC_tRQY45rEKYFdLsl?usp=sharing 
+Research ve Official klasörleri ektedir. https://drive.google.com/drive/folders/19jJLxzQTL8m9-ESC_tRQY45rEKYFdLsl?usp=sharing 
