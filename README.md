@@ -1,36 +1,69 @@
-![Logo](https://storage.googleapis.com/model_garden_artifacts/TF_Model_Garden.png)
+BİG PAWS THEORY 
 
-# Welcome to the Model Garden for TensorFlow
 
-The TensorFlow Model Garden is a repository with a number of different implementations of state-of-the-art (SOTA) models and modeling solutions for TensorFlow users. We aim to demonstrate the best practices for modeling so that TensorFlow users
-can take full advantage of TensorFlow for their research and product development.
 
-| Directory | Description |
-|-----------|-------------|
-| [official](official) | • A collection of example implementations for SOTA models using the latest TensorFlow 2's high-level APIs<br />• Officially maintained, supported, and kept up to date with the latest TensorFlow 2 APIs by TensorFlow<br />• Reasonably optimized for fast performance while still being easy to read |
-| [research](research) | • A collection of research model implementations in TensorFlow 1 or 2 by researchers<br />• Maintained and supported by researchers |
-| [community](community) | • A curated list of the GitHub repositories with machine learning models and implementations powered by TensorFlow 2 |
-| [orbit](orbit) | • A flexible and lightweight library that users can easily use or fork when writing customized training loop code in TensorFlow 2.x. It seamlessly integrates with `tf.distribute` and supports running on different device types (CPU, GPU, and TPU). |
+Enes Tayyip TUNÇLAR                          (enestayyips@gmail.com) 
+Burcu GÜLTEKİN                               (brcgltkn76@gmail.com) 
+Cem KARACAER                                 (cem-karacaer@hotmail.com) 
+Erdem AKSU                                   (Erdewdu@gmail.com) 
 
-## [Announcements](https://github.com/tensorflow/models/wiki/Announcements)
 
-| Date | News |
-|------|------|
-| July 10, 2020 | TensorFlow 2 meets the [Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) ([Blog](https://blog.tensorflow.org/2020/07/tensorflow-2-meets-object-detection-api.html)) |
-| June 30, 2020 | [SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization](https://github.com/tensorflow/models/tree/master/official/vision/detection#train-a-spinenet-49-based-mask-r-cnn) released ([Tweet](https://twitter.com/GoogleAI/status/1278016712978264064)) |
-| June 17, 2020 | [Context R-CNN: Long Term Temporal Context for Per-Camera Object Detection](https://github.com/tensorflow/models/tree/master/research/object_detection#june-17th-2020) released ([Tweet](https://twitter.com/GoogleAI/status/1276571419422253057)) |
-| May 21, 2020 | [Unifying Deep Local and Global Features for Image Search (DELG)](https://github.com/tensorflow/models/tree/master/research/delf#delg) code released |
-| May 19, 2020 | [MobileDets: Searching for Object Detection Architectures for Mobile Accelerators](https://github.com/tensorflow/models/tree/master/research/object_detection#may-19th-2020) released |
-| May 7, 2020 | [MnasFPN with MobileNet-V2 backbone](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md#mobile-models) released for object detection |
-| May 1, 2020 | [DELF: DEep Local Features](https://github.com/tensorflow/models/tree/master/research/delf) updated to support TensorFlow 2.1 |
-| March 31, 2020 | [Introducing the Model Garden for TensorFlow 2](https://blog.tensorflow.org/2020/03/introducing-model-garden-for-tensorflow-2.html) ([Tweet](https://twitter.com/TensorFlow/status/1245029834633297921)) |
 
-## Contributions
 
-[![help wanted:paper implementation](https://img.shields.io/github/issues/tensorflow/models/help%20wanted%3Apaper%20implementation)](https://github.com/tensorflow/models/labels/help%20wanted%3Apaper%20implementation)
+Enes Tayyip TUNÇLAR:		
 
-If you want to contribute, please review the [contribution guidelines](https://github.com/tensorflow/models/wiki/How-to-contribute).
+	Düzce Üniversitesi 4. Sınıf Bilgisayar Mühendisliği bölümü öğrencisiyim. Siber Güvenlikte Zararlı Yazılım Analizi ile ilgileniyorum. Daha öncelerde yapay zeka algoritmaları ve yapay sinir ağları ile ilgili çalışmalarda bulundum. Big Paws Theory ekibinde takım liderliği yapıyorum. Takımın çalışması gerekenleri planlıyor ve yapay zeka algoritmalarından ve ağlardan en verimli olanları test ediyorum.
 
-## License
+Burcu GÜLTEKİN:
 
-[Apache License 2.0](LICENSE)
+Düzce Üniversitesi Elektrik Elektronik Mühendisliği bölümü ikinci sınıf öğrencisiyim. İkinci Üniversite olarak Anadolu Üniversitesinde Web Tasarımı Ve Kodlama okumaktayım. Projede analiz-istatistik, sensörler ve donanım kısmından sorumluyum.
+
+Cem KARACAER:
+
+Düzce Üniversitesi Bilgisayar Mühendisliği bölümü ikinci sınıf öğrencisiyim. Daha önceden yapay zeka ve makine öğrenmesi ile ilgilendim. Bu projede bilgi toplama, Ar-Ge ve tasarım kısmından sorumluyum.
+
+Erdem AKSU:
+
+Merhaba, ben Erdem Aksu. Düzce Üniversitesi'nde Yönetim Bilişim Sistemleri okuyorum ve şu an 3. sınıfım. Bu projede, Big Paws Theory ekibinin derin öğrenme ve makine öğrenmesi ile ilgili kısımlarından sorumluyum.	
+
+
+
+
+
+Projenin Özeti:
+
+	Sokakta yaşayan hayvan dostlarımız için hayvan mama makinesi tasarladık. Hayvanların yanlış besinle zehirlenmesini önlemek amacıyla kamera ile hayvanı tanıyıp ona uygun mamayı dolduran bir makine yapma fikrindeyiz.
+
+Tasarladığımız bu ürün, sıradan mama otomatlarından farklı olarak; üzerindeki sensörler sayesinde kendisine yaklaşan hayvanı tanıyarak onun cinsine, boy vb. diğer bir takım ona özel değerlere uygun mamayı kaba doldurmayı amaçlamaktadır. Aynı zamanda hayvanımız mamasını yerken, eş zamanlı olarak onun kilo ve boy ölçümlerini yaparak sistemde kendi ID’si üzerinde kayıtlı tutulan verileri de güncellenmektedir. Bu sayede sokaktaki dostlarımızın her birinin güncel kimliğini makinemiz tarafından belirleyerek, onlara olabilecek maksimum konfor sağlamayı amaçlamaktadır.
+	
+
+Kullanmayı hedeflediğimiz yazılımlar ve teknolojiler:
+
+●	Google Maps,
+●	Labelimg
+●	Firebase
+●	Colab
+●	Google Cloud
+
+
+Kullanılan Kütüphaneler:
+
+●	Tensorflow
+●	Pandas
+●	Keras
+●	Numpy
+●	Matplotlib
+●	OpenCV
+●	Pillow
+
+Hackathon'da oluşturulmayan bileşenler:
+
+	Deneme amaçlı gerekli dataset toplandı. Toplanan görsellerin etiketlemeleri yapıldı. Tensorflow dosyası oluşturuldu. Gerekli paketlemelerin hepsi yüklendi. 
+	Kendi verimizi toplayıp eğitim yapmayı amaçladık. Sonrasında hazır datasetlerden daha çok verim alındığını öğrendik ve hazır dataset kullanmaya karar verdik. Köprü kurmada hata alıyoruz. Bu sebepten dolayı eğitim yapamadık.
+	Hazırladığımız Tensorflow dosyası, alınan hatalar önlendiği takdirde  eğitime hazır durumda. 
+	Mobil uygulamamızın Ux/Ul tasarımını yaptık. Mobil uygulama kodlamasını yazmaya vaktimiz kalmadığı için tamamlayamadık. 
+
+
+
+
+Resources klasörü ektedir
